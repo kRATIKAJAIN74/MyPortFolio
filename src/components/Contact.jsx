@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import toast, { Toaster } from 'react-hot-toast';
-import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -95,10 +95,9 @@ const Contact = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <a href="https://www.linkedin.com/in/ishika-jain-3343b6253/" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-pink-500 transition"><FaLinkedin /></a>
-            <a href="https://github.com/ishikajain1234?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-pink-500 transition"><FaGithub /></a>
-            <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-pink-500 transition"><FaTwitter /></a>
-            <a href="mailto:your-email@example.com" className="text-3xl hover:text-pink-500 transition"><FaEnvelope /></a>
+            <a href="https://www.linkedin.com/in/kratika-jain-39511631b/" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-pink-500 transition"><FaLinkedin /></a>
+            <a href="https://github.com/kRATIKAJAIN74" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-pink-500 transition"><FaGithub /></a>
+            <a href="mailto:jkratika8@gmail.com" className="text-3xl hover:text-pink-500 transition"><FaEnvelope /></a>
           </motion.div>
         </div>
       </div>
@@ -111,7 +110,7 @@ const Contact = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <p className="text-lg">Made with <span role="img" aria-label="heart">❤️</span> by Ishika</p>
+          <p className="text-lg">Made with <span role="img" aria-label="heart">❤️</span> by Kratika</p>
           <p className="text-sm text-gray-400">Thanks for visiting!</p>
         </motion.div>
       </div>

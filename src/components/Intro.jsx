@@ -2,23 +2,20 @@ import React, { useState, useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import Leetcode from "../assests/Imagepart/leetcode.png";
-import Codechef from "../assests/Imagepart/codechef.jpg";
-import ICPC from "../assests/Imagepart/icpc.png";
-import GFG from "../assests/Imagepart/gfg.png";
-import Amazon from "../assests/Imagepart/amazon.png";
-import Hack from "../assests/Imagepart/hach.png";
-import certificate from "../assests/Imagepart/certficate.png";
+import Leetcode from "../assests/Imagepart/i1.jpeg";
+import Codechef from "../assests/Imagepart/i2.jpeg";
+import GFG from "../assests/Imagepart/i3.jpeg";
+import Amazon from "../assests/Imagepart/i4.jpeg";
+import Hack from "../assests/Imagepart/i5.jpeg";
+// import certificate from "../assests/Imagepart/certficate.png";
 
 // Image data
 const images = [
   { id: 1, src: Leetcode, alt: "Leetcode" },
   { id: 2, src: Codechef, alt: "Codechef" },
-  { id: 3, src: ICPC, alt: "ICPC" },
-  { id: 4, src: GFG, alt: "GFG" },
-  { id: 5, src: Amazon, alt: "Amazon" },
-  { id: 6, src: Hack, alt: "Hackathon" },
-  { id: 7, src: certificate, alt: "certficate" },
+  { id: 3, src: GFG, alt: "GFG" },
+  { id: 4, src: Amazon, alt: "Amazon" },
+  { id: 5, src: Hack, alt: "Hackathon" },
 ];
 
 const IntroImageSection = () => {
@@ -68,7 +65,7 @@ const IntroImageSection = () => {
         </div>
         <div className="pl-10">
           <p className="text-xl" data-aos="fade-right" data-aos-delay="200">
-            I am Ishika Jain, a passionate{" "}
+            I am Kratika Jain, a passionate{" "}
             <span className="highlight bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 font-bold">
               Software Engineer
             </span>{" "}
@@ -78,15 +75,15 @@ const IntroImageSection = () => {
             </span>{" "}
             and have proficiency in{" "}
             <span className="highlight bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 font-bold">
-              C++ and C
+              Java .
             </span>.
           </p>
           <br />
           <p className="text-xl" data-aos="fade-right" data-aos-delay="400">
             As an{" "}
             <span className="highlight bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 font-bold">
-              ICPC Regionalist
-            </span>, I have proven my problem-solving abilities and teamwork skills in one of the most prestigious competitive programming events. I also have a range of projects under my belt, both front-end and back-end, that showcase my capability to create{" "}
+             Top 1500 performer in Google Big Code
+            </span>, I demonstrated strong problem-solving abilities and coding skills in a highly competitive programming environment. I have also worked on a variety of projects, both front-end and back-end, that showcase my capability to create{" "}
             <span className="highlight bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 font-bold">
               impactful and scalable solutions
             </span>.

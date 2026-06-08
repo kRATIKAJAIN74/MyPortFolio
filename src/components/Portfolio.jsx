@@ -3,28 +3,24 @@ import { motion } from 'framer-motion';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import ProjectCard from './ProjectCard'; // Make sure the path is correct
 
-// Project Images
-import foodie from "../assests/port-folio/foodie.webp";
-import lms from "../assests/port-folio/lms.webp";
+// Use the uploaded VideoCall.jpeg as the project thumbnail
+import apnaVideoCall from "../assests/port-folio/VideoCall.jpeg";
 import spotify from "../assests/port-folio/spotify.webp";
+import ZTradeBot from "../assests/port-folio/Z-TradeBot.jpeg";
+import calendar from "../assests/port-folio/Calender.jpeg";
 import todo from "../assests/port-folio/todo.webp";
 import wanderlust from "../assests/port-folio/wanderlust.webp";
-import parallax from "../assests/port-folio/parall.webp";
 import HireWare from "../assests/port-folio/HireWare.webp";
-import Samvad from "../assests/port-folio/Samvad.webp";
 import Career from "../assests/port-folio/Career.webp";
 
 // Project Data
 const projects = [
-  { id: 9, title: "CareerPilo-AI", description: "CareerPilot-AI is an intelligent career preparation platform designed to help users simulate real interview experiences, receive actionable feedback, and upskill through personalized learning paths.", image: Career, demo: "https://career-pilot-ai-zplo.vercel.app/", code: "https://github.com/ishikajain1234/CareerPilot_AI" },
-  { id: 1, title: "Foodie", description: "A food delivery app showcasing React and API integration.", image: foodie, demo: "https://mini-project-beta-kohl.vercel.app/", code: "https://github.com/ishikajain1234/mini-project" },
-  { id: 2, title: "HireWare", description: "A modern, fully responsive Job Portal built using React.js and Vite, supporting role-based access for Recruiters and Candidates.", image: HireWare, demo: "https://hire-wave-kappa.vercel.app/", code: "https://github.com/ishikajain1234/HireWare" },
-  { id: 3, title: "Sam-Vaad", description: "Samvaad is a real-time chat application built to facilitate seamless and secure communication between users. Inspired by modern messaging platforms, it supports 1-on-1 and group chats, live typing indicators, message read receipts, and real-time updates without page refresh.", image: Samvad, demo: "https://samvaad-9cvj.onrender.com/", code: "https://github.com/arjunvats3042/fullstack_chat_app" },
-  { id: 4, title: "Wanderlust", description: "A travel website built using the MERN stack with features like login, logout, and place finding.", image: wanderlust, demo: "#", code: "https://github.com/ishikajain1234/wanderlust-website" },
+  { id: 9, title: "Apna Video Call", description: "Developed a full-stack real-time video calling application using React, Express, and MongoDB. Implemented WebRTC for peer-to-peer video/audio communication and Socket.IO for real-time signaling. Secured the application with JWT-based authentication and authorization and deployed the application on cloud hosting, with version control via Git/GitHub.", image: apnaVideoCall, demo: "https://apna-video-call-frontend-8djz.onrender.com", code: "https://github.com/kRATIKAJAIN74/Apna-Video-Call" },
+  { id: 2, title: "Z-TradeBot", description: "Developed a full-stack stock trading platform inspired by Zerodha, enabling users to securely sign up, log in, manage their portfolios, and access personalized trading dashboards. Features interactive portfolio analytics, real-time visual insights, and a responsive user experience across devices.", image: ZTradeBot, demo: "https://zerodha-frontend-7cn4.onrender.com", code: "https://github.com/kRATIKAJAIN74/ZERODHA" },
+  { id: 4, title: "Wanderlust", description: "A travel website built using the MERN stack with features like login, logout, and place finding.", image: wanderlust, demo: "https://wanderlust-3w0u.onrender.com/listings", code: "https://github.com/kRATIKAJAIN74/WanderLust" },
   
-  { id: 6, title: "To-Do App", description: "A simple and effective to-do list application built with JS.", image: todo, demo: "#", code: "https://github.com/ishikajain1234/todoapp" },
-  { id: 7, title: "PARALLAX WEBSITE", description: "A parallax website using scrolling effects to create immersive experience.", image: parallax, demo: "#", code: "https://github.com/ishikajain1234/project1" },
-  { id: 8, title: "Spotify Clone", description: "A clone of Spotify built with HTML and CSS showcasing a sleek UI design.", image: spotify, demo: "https://spotify-clone-orcin-two.vercel.app/", code: "https://github.com/ishikajain1234/Spotify-Clone" },
+  { id: 6, title: "Calendar", description: "A basic website built using HTML, CSS, and JavaScript.", image: calendar, demo: "https://calender-xk5q.vercel.app/", code: "https://github.com/kRATIKAJAIN74/Calender" },
+  { id: 8, title: "Spotify Clone", description: "A clone of Spotify built with HTML and CSS showcasing a sleek UI design.", image: spotify, demo: "https://spotify-clone-orcin-two.vercel.app/", code: "https://github.com/kRATIKAJAIN74/-Projects/tree/main/Project_2(Spotify%20clone)" },
 ];
 
 const CARD_GUTTER = 16;

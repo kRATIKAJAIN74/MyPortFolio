@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaTrophy } from 'react-icons/fa'; 
-import { SiLeetcode, SiCodechef, SiCodeforces } from 'react-icons/si'; 
+import { FaGithub } from 'react-icons/fa'; 
+import { SiLeetcode, SiCodechef } from 'react-icons/si'; 
 import Card from './Card';
 
 const Achievements = () => {
@@ -34,20 +34,7 @@ const Achievements = () => {
           animate={{ x: 0 }}
           transition={{ type: "spring", stiffness: 60 }}
         >
-          {/* ICPC Regionals */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
-          >
-            <Card
-              title="ICPC Regionals"
-              description="Ranked 329 in ICPC Regionals, showcasing competitive programming skills."
-              link="https://www.linkedin.com/in/ishika-jain-3343b6253/?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAD6HeVgB0vmO8HnBV2D-yeidvgCLGFFCEIQ"
-              linkText="Learn More"
-              icon={<FaTrophy size={50} className="text-white" />}
-            />
-          </motion.div>
+          
 
           {/* LeetCode Achievement */}
           <motion.div
@@ -57,8 +44,8 @@ const Achievements = () => {
           >
             <Card
               title="LeetCode Profile"
-              description="Solved 800+ questions, attained a 1700+ rating."
-              link="https://leetcode.com/u/ishikajain1234/"
+              description="Solved 500+ questions, attained a 1700+ rating."
+              link="https://leetcode.com/u/Kratika_jain12/"
               linkText="View Profile"
               icon={<SiLeetcode size={50} className="text-white" />}
             />
@@ -72,8 +59,8 @@ const Achievements = () => {
           >
             <Card
               title="GitHub Profile"
-              description="Contributed to multiple open-source projects."
-              link="https://github.com/ishikajain1234?tab=repositories"
+              description="Contributed to open-source projects."
+              link="https://github.com/kRATIKAJAIN74"
               linkText="View GitHub"
               icon={<FaGithub size={50} className="text-white" />}
             />
@@ -87,27 +74,14 @@ const Achievements = () => {
           >
             <Card
               title="CodeChef Profile"
-              description="3* on CodeChef, achieved 1600+ rating, global rank 129,185,436."
-              link="https://www.codechef.com/users/jainishika072"
+              description="2* on CodeChef, achieved 1400+ rating."
+              link="https://www.codechef.com/users/kratijain74"
               linkText="View Profile"
               icon={<SiCodechef size={50} className="text-white" />}
             />
           </motion.div>
 
-          {/* Codeforces Achievement */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-          >
-            <Card
-              title="Codeforces Profile"
-              description="Earned a 1150+ rating on Codeforces."
-              link="https://codeforces.com/profile/Ishikajain04"
-              linkText="View Profile"
-              icon={<SiCodeforces size={50} className="text-white" />}
-            />
-          </motion.div>
+          
         </motion.div>
       </div>
     </div>

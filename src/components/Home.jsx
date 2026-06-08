@@ -114,7 +114,7 @@ const Home = () => {
               options={{
                 strings: [
                   "I'm a MERN Stack Developer",
-                  "I'm a C++ Programmer",
+                  "I'm a Java Programmer",
                   "I'm a Frontend Developer"
                 ],
                 autoStart: true,

@@ -12,22 +12,22 @@ function Navbar() {
     {
       id: 1,
       icon: <FaLinkedin size={20} />,
-      href: "https://www.linkedin.com/in/ishika-jain-3343b6253/",
+      href: "https://www.linkedin.com/in/kratika-jain-39511631b/",
     },
     {
       id: 2,
       icon: <FaGithub size={20} />,
-      href: "https://github.com/ishikajain1234?tab=repositories",
+      href: "https://github.com/kRATIKAJAIN74",
     },
     {
       id: 3,
       icon: <HiOutlineMail size={20} />,
-      href: "mailto:your-email@example.com",
+      href: "mailto:jkratika8@gmail.com",
     },
     {
       id: 4,
       icon: <BsFillPersonLinesFill size={20} />,
-      href: "/mera%20resume.pdf",
+      href: "/Kratika's Resume.pdf",
       download: true,
     },
   ];
@@ -36,7 +36,7 @@ function Navbar() {
     <div className="flex justify-between items-center w-full h-20 px-4 text-white fixed bg-black z-50">
       {/* Normal text for the name */}
       <h1 className="text-xl">
-        Ishika Jain | Mern Stack Developer
+        Kratika Jain | Mern Stack Developer
       </h1>
 
       {/* Desktop Menu */}

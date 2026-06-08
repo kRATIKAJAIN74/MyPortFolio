@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGithub, FaCode } from 'react-icons/fa'; 
+import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGithub, FaJava } from 'react-icons/fa'; 
 import { SiMongodb, SiJavascript, SiExpress, SiC } from 'react-icons/si'; 
 
 const Skills = () => {
@@ -128,8 +128,8 @@ const Skills = () => {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 1.6 }}
             >
-              <FaCode size={60} className="mx-auto mb-4 text-blue-600" />
-              <h3 className="text-2xl font-semibold">C++</h3>
+              <FaJava size={60} className="mx-auto mb-4 text-red-500" />
+              <h3 className="text-2xl font-semibold">Java</h3>
             </motion.div>
 
             <motion.div
