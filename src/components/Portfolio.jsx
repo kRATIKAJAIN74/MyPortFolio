@@ -8,10 +8,10 @@ import apnaVideoCall from "../assests/port-folio/VideoCall.jpeg";
 import spotify from "../assests/port-folio/spotify.webp";
 import ZTradeBot from "../assests/port-folio/Z-TradeBot.jpeg";
 import calendar from "../assests/port-folio/Calender.jpeg";
-import todo from "../assests/port-folio/todo.webp";
+// import todo from "../assests/port-folio/todo.webp";
 import wanderlust from "../assests/port-folio/wanderlust.webp";
-import HireWare from "../assests/port-folio/HireWare.webp";
-import Career from "../assests/port-folio/Career.webp";
+// import HireWare from "../assests/port-folio/HireWare.webp";
+// import Career from "../assests/port-folio/Career.webp";
 
 // Project Data
 const projects = [
